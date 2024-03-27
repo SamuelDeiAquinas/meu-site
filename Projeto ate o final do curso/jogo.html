@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Velha</h1>
+        <div id="board" class="board">
+            <div class="cell" onclick="playerMove(0)"></div>
+            <div class="cell" onclick="playerMove(1)"></div>
+            <div class="cell" onclick="playerMove(2)"></div>
+            <div class="cell" onclick="playerMove(3)"></div>
+            <div class="cell" onclick="playerMove(4)"></div>
+            <div class="cell" onclick="playerMove(5)"></div>
+            <div class="cell" onclick="playerMove(6)"></div>
+            <div class="cell" onclick="playerMove(7)"></div>
+            <div class="cell" onclick="playerMove(8)"></div>
+        </div>
+        <button onclick="resetGame()">Resetar Jogo</button>
+        <div id="status">É a vez do jogador X</div>
+    </div>
+    <script src="script.js"></script>
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+</body>
+</html>
